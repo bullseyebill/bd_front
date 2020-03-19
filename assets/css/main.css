@@ -3906,16 +3906,6 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
-#wrapper {
-    background-color: #000066;
-    color: white;
-    font-weight: bold;
-    height: 300px;
-    width: 100%;
-    overflow: hidden;
-    padding: 5px;
-}
-
 .cursor-trail {
     position: absolute;
     z-index: 10000;
