@@ -3906,4 +3906,31 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+#wrapper {
+    background-color: #000066;
+    color: white;
+    font-weight: bold;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.cursor-trail {
+    position: absolute;
+    z-index: 10000;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: black;
+    pointer-events: none;
+}
+
+.yellow-trail {
+    background-color: yellow;
+}
 		}
