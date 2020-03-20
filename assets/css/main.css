@@ -3244,7 +3244,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #423382b5;
 		}
 
 		.wrapper.style2 {
@@ -3513,7 +3513,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.81);
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3906,21 +3906,23 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
-.cursor-trail {
-    position: absolute;
-    z-index: 10000;
-    display: inline-block;
-    width: 1px;
-    height: 1px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    background-color: black;
-    pointer-events: none;
-}
+      /*  .cursor-trail {
+            align-content:  position: absolute;
+            z-index: 10000;
+            display: inline-block;
+            width: 1px;
+            height: 1px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow: hidden;
+            background-color: black;
+            pointer-events: none;
+            }
 
-.yellow-trail {
-    background-color: yellow;
-}
-		}
+        .yellow-trail {
+            background-color: yellow;
+            }*/
+
+  }
+		

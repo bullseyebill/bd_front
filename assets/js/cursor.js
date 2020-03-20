@@ -43,6 +43,6 @@ if (!$.support.transition) {
     $.fn.transition = $.fn.animate;
 }
 
-$("#wrapper").cursorTrail({
+$("#inner").cursorTrail({
     "class": "yellow-trail"
 });
